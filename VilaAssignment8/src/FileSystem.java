@@ -33,26 +33,15 @@ public class FileSystem {
 	}
 	
 	public static void options() throws IOException{
-		/*System.out.println("Now, what would you like to do today?");
+		System.out.println("Now, what would you like to do today?");
 		System.out.println("1 = List the contents of a directory");
 		System.out.println("2 = List the contents of a directory as all of its sub directories");
 		System.out.println("3 = Locate a file");
 		System.out.println("4 = Locate files with a given file extension");
 		System.out.println("5 = Concatenate the contents of 2 files and output the result to a third file");
-		System.out.println("6 = Exit");*/
+		System.out.println("6 = Exit");
 		
-		String line = JOptionPane.showInputDialog('''
-		
-		What would you like to do?
-		
-		1 = List the contents of a directory");
-		2 = List the contents of a directory as all of its sub directories");
-		3 = Locate a file");
-		4 = Locate files with a given file extension");
-		5 = Concatenate the contents of 2 files and output the result to a third file");
-		6 = Exit
-		
-		''');
+		String line = JOptionPane.showInputDialog("What would you like to do?");
 		
 		if (line .equals("1")) {
 			String ask = JOptionPane.showInputDialog("What directory would you like to list?");
@@ -86,25 +75,15 @@ public class FileSystem {
 		
 	
 	public static void optionsTwo() throws IOException {
-		/*System.out.println("Now, what would you like to do today?");
+		System.out.println("Now, what would you like to do today?");
 		System.out.println("1 = List the contents of a directory");
 		System.out.println("2 = List the contents of a directory as all of its sub directories");
 		System.out.println("3 = Locate a file");
 		System.out.println("4 = Locate files with a given file extension");
 		System.out.println("5 = Concatenate the contents of 2 files and output the result to a third file");
-		System.out.println("6 = Exit")*/
+		System.out.println("6 = Exit")
 		
-		String line = JOptionPane.showInputDialog('''
-		What would you like to do?
-		
-		1 = List the contents of a directory");
-		2 = List the contents of a directory as all of its sub directories");
-		3 = Locate a file");
-		4 = Locate files with a given file extension");
-		5 = Concatenate the contents of 2 files and output the result to a third file");
-		6 = Exit
-		
-		''');
+		String line = JOptionPane.showInputDialog("What would you like to do?");
 		
 		if (line .equals("1")) {
 			String ask = JOptionPane.showInputDialog("What directory would you like to list?");
